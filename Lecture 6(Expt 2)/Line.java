@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Line {
     int m , c ,x1,y1,x2,y2;
@@ -24,7 +24,7 @@ public class Line {
         genEqn(m, x1, y1, x2, y2);
     }
     void genEqn(int m, int c){//To show in slope-intercept form
-        System.out.println("y=" + m+ "2x + " + c);
+        System.out.println("y=" + m+ "x + " + c);
     }
     void genEqn(int m ,int x1, int y1){ //To show in point-slope form
         System.out.println("(y - "+y1+") = "+m+"(x - " + x1+" )");

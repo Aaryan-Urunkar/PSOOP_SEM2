@@ -20,7 +20,7 @@ public class fraction{
             return m;
         }
     }
-
+    
     void addition(int a,int b, int c, int d){
         int resNum = (a*d + b*c);  //Storing result of addition
         int resDen = (b*d);
